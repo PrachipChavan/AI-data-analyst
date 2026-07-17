@@ -1,20 +1,7 @@
 # 🤖 AI Data Analyst — Agentic AI Project
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-LLaMA%203.3-F55036?style=for-the-badge&logo=groq&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+<img width="1900" height="847" alt="image" src="https://github.com/user-attachments/assets/c0324918-44c6-4279-9090-85ad38bc3b8c" />
 
 **An autonomous AI-powered data analyst that explores, visualizes, and interprets your data using natural language.**
-
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Architecture](#-architecture) • [Tools](#-tools)
-
-</div>
-
----
 
 ## 📌 Overview
 
