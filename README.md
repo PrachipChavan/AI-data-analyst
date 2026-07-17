@@ -247,13 +247,6 @@ User Question (Natural Language)
   Final Answer + Charts + Insights
 ```
 
-### ReAct Loop
-```
-Think → Plan → Act (tool call) → Observe → Reflect → Repeat
-```
-
----
-
 ## ⚙️ Configuration
 
 | Variable | Description | Default |
@@ -282,67 +275,3 @@ markdown2>=2.4.0
 
 ---
 
-## 🐛 Troubleshooting
-
-### `'ascii' codec can't encode character` error
-This is a Windows encoding issue. Fix it by running:
-```bash
-set PYTHONUTF8=1 && streamlit run app.py
-```
-Or add `PYTHONUTF8=1` to your `.env` file.
-
-### `401 Invalid API Key` error
-- Make sure you've entered your Groq API key in the sidebar or `.env` file
-- Get a free key at [console.groq.com](https://console.groq.com)
-- Keys start with `gsk_...`
-
-### `ModuleNotFoundError`
-Run `pip install -r requirements.txt` again and make sure your virtual environment is activated.
-
-### Charts not rendering
-Make sure `plotly>=5.18.0` is installed. Run `pip install plotly --upgrade`.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-### Ideas for contributions
-- [ ] Add support for database connections (PostgreSQL, MySQL)
-- [ ] Add PDF/HTML report export
-- [ ] Add more ML models (Random Forest feature importance)
-- [ ] Add data cleaning suggestions
-- [ ] Add support for multiple datasets simultaneously
-- [ ] Add voice input support
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgements
-
-- [Groq](https://groq.com) — Ultra-fast LLM inference
-- [Meta LLaMA 3.3](https://ai.meta.com/blog/meta-llama-3/) — Powerful open-source LLM
-- [Streamlit](https://streamlit.io) — Rapid web app framework for Python
-- [Plotly](https://plotly.com) — Interactive visualization library
-
----
-
-<div align="center">
-
-Built with ❤️ using Python, Groq, and Streamlit
-
-⭐ **Star this repo if you found it useful!** ⭐
-
-</div>
